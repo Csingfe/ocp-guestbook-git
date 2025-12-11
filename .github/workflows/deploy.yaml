@@ -22,7 +22,7 @@ jobs:
 
     - name: Build app container
       run: |
-        docker build -f backend/Containerfile -t ghcr.io/c.singfe/guestbook:latest ./backend
+        docker build -f backend/Containerfile -t ghcr.io/csingfe/guestbook:latest ./backend
         
 
    
